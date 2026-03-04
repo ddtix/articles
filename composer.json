@@ -17,5 +17,8 @@
         "ddtix/dbconn": "^1.0",
         "ddtix/envloader": "^1.0",
         "smarty/smarty": "^5.8"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
     }
 }
