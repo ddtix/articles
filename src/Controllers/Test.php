@@ -2,10 +2,13 @@
 
 namespace Controllers;
 
+use Ddtix\Dbconn\DB;
+use Services\Service;
+
 class Test
 {
     public static function index(): string
     {
-        return "Test Controller";
+        return Service::index();
     }
 }
