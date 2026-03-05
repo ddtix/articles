@@ -1,7 +1,7 @@
 <?php
-//require __DIR__ . '/../vendor/autoload.php';
+// require __DIR__ . '/../vendor/autoload.php';
 
-// подгрузка неопубликованных пакетов
+// load unpublished packages
 spl_autoload_register(function ($className) {
     $parts = explode('\\', $className);
     $fileName = array_pop($parts);
