@@ -3,12 +3,12 @@
 namespace Controllers;
 
 use Ddtix\Dbconn\DB;
-use Services\Service;
+use Services\Service\MyService;
 
 class Test
 {
     public static function index(): string
     {
-        return Service::index();
+        return MyService::index();
     }
 }
